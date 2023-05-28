@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to our website</h1>
+        <p>Log in or sign up to access exclusive content and features.</p>
+        <div class="buttons">
+            <a href="{{ url_for('login') }}"><button class="login-btn">Login</button></a>
+            <a href="{{ url_for('register') }}"><button class="signup-btn">Register</button></a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
